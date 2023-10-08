@@ -1,0 +1,20 @@
+Console.Write("Are you a male? : ");
+bool isMale = Convert.ToBoolean(Console.ReadLine());
+Console.Write("Are you above 180cm? : ");
+bool isTall = Convert.ToBoolean(Console.ReadLine());
+if (isMale && isTall)
+{
+    Console.WriteLine("You are male and tall");
+}
+else if (isMale && !isTall)
+{
+    Console.WriteLine("You are male but not tall");
+}
+else if (!isMale && isTall)
+{
+    Console.WriteLine("You are not male but are tall");
+}
+else
+{
+    Console.WriteLine("You are neither male or tall");
+}
