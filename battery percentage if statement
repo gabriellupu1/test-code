@@ -1,0 +1,9 @@
+Console.Write("What is your phone battery percentage: ");
+int percentage = Convert.ToInt32(Console.ReadLine());
+if (percentage <= 20)
+{
+    Console.WriteLine("Charge your phone");
+}
+else
+{
+    Console.WriteLine("Your phone has sufficient battery");
