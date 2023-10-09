@@ -1,0 +1,6 @@
+Console.Write("enter temperature in Celcius: ");
+int celcius = Convert.ToInt32(Console.ReadLine());
+
+
+Console.WriteLine("Kelvin = {0}", celcius + 273);
+Console.WriteLine("Fahrenheit = {0} ", celcius * 18 / 10 + 32);
